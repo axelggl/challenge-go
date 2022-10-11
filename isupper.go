@@ -6,7 +6,7 @@ func IsUpper(s string) bool {
 	for _, r := range my_array {
 		if !(r >= 65 && r <= 90) {
 			a = false
-			}
+		}
 	}
 	return a
 }
