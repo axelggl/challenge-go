@@ -2,7 +2,7 @@ package piscine
 
 func IsUpper(s string) bool {
 	my_array := []rune(s)
-	a := true
+	a := false
 
 	for i := 0; i <= len(my_array)-1; i++ {
 		if my_array[i] >= 65 && my_array[i] <= 90 {
@@ -11,5 +11,6 @@ func IsUpper(s string) bool {
 			a = false
 		}
 	}
+
 	return a
 }
