@@ -1,6 +1,6 @@
 package piscine
 
-func IsUpper(s string) bool {
+func IsNumeric(s string) bool {
 	my_array := []rune(s)
 	a := true
 	for _, r := range my_array {
