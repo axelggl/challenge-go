@@ -7,6 +7,6 @@ func IsUpper(s string) bool {
 		if !(r >= 65 && r <= 90) {
 			a = false
 			}
-		}
+	}
 	return a
 }
