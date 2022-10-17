@@ -1,8 +1,8 @@
 package piscine
 
-//import "github.com/01-edu/z01"
+// import "github.com/01-edu/z01"
 
-//CODE POUR COMPRENDRE LA LOGIQUE
+// CODE POUR COMPRENDRE LA LOGIQUE
 
 func IsRuneDigit(r rune) bool {
 	if r >= '0' && r <= '9' {
