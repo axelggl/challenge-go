@@ -9,7 +9,6 @@ func Index(s string, toFind string) int {
     } else if len(s) < len(toFind) {
         return -1
     }
-
     for i := 0; i < len(sTable); i++ {
         if sTable[i] == fTable[0] {
             for j := 0; j < len(toFind); j++ {
