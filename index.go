@@ -14,8 +14,6 @@ func Index(s string, toFind string) int {
 			for j := 0; j < len(toFind); j++ {
 				if sTable[i+1] == fTable[j] {
 					return i
-				} else if sTable[i+1] != fTable[j] {
-					return i
 				}
 			}
 		}
