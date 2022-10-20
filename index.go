@@ -1,8 +1,8 @@
 package piscine
 
 func Index(s string, toFind string) int {
-    sTable := []rune(s)
-    fTable := []rune(toFind)
+        sTable := []rune(s)
+        fTable := []rune(toFind)
 
     if len(s) < 1 {
         return 0
