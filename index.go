@@ -12,7 +12,9 @@ func Index(s string, toFind string) int {
     for i := 0; i < len(sTable); i++ {
         if sTable[i] == fTable[0] {
             for j := 0; j < len(toFind); j++ {
-                if fTable[j] == sTable[i+1] {
+                if sTable[i+1] == fTable[j] {
+                    return i
+                } else if sTable[i+1] != fTable[j] {
                     return i
                 }
             }
